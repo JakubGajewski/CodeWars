@@ -1,5 +1,7 @@
 package pl._6kyu;
 
+//Ciount multiples of 3 or 5
+
 public class MultiplesOf3Or5 {
 
     public static int solution(int number) {

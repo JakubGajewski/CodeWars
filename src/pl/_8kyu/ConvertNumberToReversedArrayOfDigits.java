@@ -1,4 +1,13 @@
 package pl._8kyu;
+/*
+Convert number to reversed array of digits
+
+        Given a random number:
+
+        C#: long;
+        C++: unsigned long;
+
+        You have to return the digits of this number within an array in reverse order.*/
 
 public class ConvertNumberToReversedArrayOfDigits {
 
@@ -15,7 +24,7 @@ public class ConvertNumberToReversedArrayOfDigits {
         return reversed;
     }
 }
-        /* nie działa, bo jebie się, jak jest long na początku
+        /* nie działa, bo psuje się, jak jest long na początku
         System.out.println(n);
 
         String nStr = n + "";

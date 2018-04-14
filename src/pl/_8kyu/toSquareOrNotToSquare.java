@@ -12,10 +12,6 @@ public class toSquareOrNotToSquare {
     }
 }
 
-
-
-
-
 /*
 #To square(root) or not to square(root)
 

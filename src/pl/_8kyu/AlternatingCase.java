@@ -1,5 +1,9 @@
 package pl._8kyu;
 
+//altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+//
+//Define to_alternating_case(char*) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.
+
 public class AlternatingCase {
 
     public static String toAlternativeString(String string) {
