@@ -28,3 +28,16 @@ public class FindTheOddInt {
         return A[A.length-1];
     }
 }
+
+/*
+Most scored solution (not mine):
+public class FindOdd {
+    public static int findIt(int[] A) {
+        int xor = 0;
+        for (int i = 0; i < A.length; i++) {
+            xor ^= A[i];
+        }
+        return xor;
+    }
+}
+*/
