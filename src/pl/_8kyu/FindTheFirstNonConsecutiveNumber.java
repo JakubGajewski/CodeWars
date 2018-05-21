@@ -1,5 +1,3 @@
-package pl._8kyu;
-
 /*
 Your task is to find the first element of an array that is not consecutive.
 
@@ -14,6 +12,7 @@ Your task is to find the first element of an array that is not consecutive.
         https://www.codewars.com/kata/represent-array-of-numbers-as-ranges
 */
 
+package pl._8kyu;
 
     public class FindTheFirstNonConsecutiveNumber{
     public static Integer find(final int[] array) {

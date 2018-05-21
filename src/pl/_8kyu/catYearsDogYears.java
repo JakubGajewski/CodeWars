@@ -1,24 +1,4 @@
 package pl._8kyu;
-
-public class catYearsDogYears {
-    public static int[] humanYearsCatYearsDogYears(final int humanYears) {
-        int[] result = new int[3];
-        switch (humanYears) {
-            case 1:
-                result[0] = 1;
-                result[1] = 15;
-                result[2] = 15;
-                return result;
-            default:
-                result[0] = humanYears;
-                result[1] = 24 + 4 * (humanYears - 2);
-                result[2] = 24 + 5 * (humanYears - 2);
-                return result;
-        }
-    }
-}
-
-
 /*
 Kata Task
 
@@ -45,3 +25,22 @@ Dog Years
     +5 dog years for each year after that
 
  */
+public class catYearsDogYears {
+    public static int[] humanYearsCatYearsDogYears(final int humanYears) {
+        int[] result = new int[3];
+        switch (humanYears) {
+            case 1:
+                result[0] = 1;
+                result[1] = 15;
+                result[2] = 15;
+                return result;
+            default:
+                result[0] = humanYears;
+                result[1] = 24 + 4 * (humanYears - 2);
+                result[2] = 24 + 5 * (humanYears - 2);
+                return result;
+        }
+    }
+}
+
+

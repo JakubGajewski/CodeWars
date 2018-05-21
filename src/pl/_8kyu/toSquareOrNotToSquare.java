@@ -1,17 +1,3 @@
-package pl._8kyu;
-
-public class toSquareOrNotToSquare {
-    public static int[] squareOrSquareRoot(int[] array){
-        int [] result = new int[array.length];
-        int count = 0;
-        for (int i : array){
-            int a = ((Math.sqrt(i) == ((double)((int)Math.sqrt(i))))) ? (result[count] = (int)Math.sqrt(i)) : (result[count] = (int)i*i);
-            count++;
-        }
-        return result;
-    }
-}
-
 /*
 #To square(root) or not to square(root)
 
@@ -30,11 +16,26 @@ Have fun coding it and please don't forget to vote and rank this kata! :-)
 
 I have also created other katas. Take a look if you enjoyed this kata!
 
-------------
-
-wersja bez ternary:
 */
-/*{
+
+package pl._8kyu;
+
+public class toSquareOrNotToSquare {
+    public static int[] squareOrSquareRoot(int[] array){
+        int [] result = new int[array.length];
+        int count = 0;
+        for (int i : array){
+            int a = ((Math.sqrt(i) == ((double)((int)Math.sqrt(i))))) ? (result[count] = (int)Math.sqrt(i)) : (result[count] = (int)i*i);
+            count++;
+        }
+        return result;
+    }
+}
+
+
+/* alternative solution:
+
+{
     public static int[] squareOrSquareRoot(int[] array)
     {
         int [] result = new int[array.length];

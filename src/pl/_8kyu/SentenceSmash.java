@@ -1,14 +1,3 @@
-package pl._8kyu;
-
-public class SentenceSmash {
-
-    public static String smash(String[] words) {
-        return String.join(" ", words);
-    }
-}
-
-
-
 /*Sentence Smash
 
 Write a method smash that takes an array of words and smashes them together into a sentence and returns the sentence. You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful, there shouldn't be a space at the beginning or the end of the sentence!
@@ -30,3 +19,15 @@ Disclaimer
 
 This is for beginners so we want to test basic loops and string manipulation. Advanced users should easily be able to do this in one line.
 */
+
+package pl._8kyu;
+
+public class SentenceSmash {
+
+    public static String smash(String[] words) {
+        return String.join(" ", words);
+    }
+}
+
+
+
