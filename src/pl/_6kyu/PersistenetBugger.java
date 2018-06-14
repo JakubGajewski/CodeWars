@@ -34,28 +34,3 @@ public class PersistenetBugger {
         recursion(m);
     }
 }
-
-/*Niepoprawne użycie statica:
-
-public class PersistenetBugger {
-    static int persistence = 0;
-
-    public static int persistence(long n) {
-        recursion(n);
-        return persistence;
-    }
-
-    static void recursion(long n) {
-        String numAsString = n + "";
-        if (numAsString.length() == 1) {
-            return;
-        }
-        long m = 1;
-        for (int i = 0; i < numAsString.length(); i++) {
-            m *= Character.getNumericValue(numAsString.charAt(i));
-        }
-        persistence++;
-        recursion(m);
-    }
-}
-*/

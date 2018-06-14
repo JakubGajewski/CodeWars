@@ -1,3 +1,5 @@
+//TODO
+
 package pl._6kyu;
 /*
 source: https://www.codewars.com/kata/rectangle-into-squares/train/java
@@ -26,8 +28,11 @@ Notes:
 
 */
 
-//NOTE: Test at codewars are bugged!
 
+//Note - it should be fixed, using global variables here is not a good way to solve it, if you want to use the function more than once
+
+
+/*
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,6 +40,8 @@ public class RectangleIntoSquare {
 
     private static List<Integer> result = new ArrayList();
     private static int counter = 0;
+
+    //Note - it should be fixed, using global variables here is not a good way to solve it, if you want to use the function more than once
 
     public static List<Integer> sqInRect(int l, int w) {
 
@@ -61,4 +68,5 @@ public class RectangleIntoSquare {
         return result;
     }
 }
+ */
 
