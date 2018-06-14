@@ -1,5 +1,7 @@
 package pl._4kyu;
 /*
+//UNFINISHED
+
 source: https://www.codewars.com/kata/snail/train/java
 
 Snail Sort
