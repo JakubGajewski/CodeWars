@@ -4,8 +4,19 @@
 package pl._7kyu;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class JumpingNumber {
+    public static String jumpingNumber(int number) {
+        int[] digitArray = Stream.of(String.valueOf(number).split("")).mapToInt(Integer::parseInt).toArray();
+        if(IntStream.range(1,digitArray.length).allMatch(i -> Math.abs(digitArray[i-1] - digitArray[i]) == 1)) {
+            return "Jumping!!";
+        }
+        return "Not!!";
+    }
+
+    /*
         public static String jumpingNumber(int number)
         {
             int previous = String.valueOf(number).charAt(0) - 48;
@@ -19,6 +30,7 @@ public class JumpingNumber {
             }
             return "Jumping!!";
         }
+*/
 }
 
 
