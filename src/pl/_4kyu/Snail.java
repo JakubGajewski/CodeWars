@@ -23,36 +23,36 @@ snail(array) #=> [1,2,3,4,5,6,7,8,9]
 
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
-
-public class Snail {
-
-    public static int[] snail(int[][] array) {
-        int n = array.length;
-
-        List<Integer>  result = new ArrayList<Integer> ();
-
-        for (int a = 0; a < Math.ceil(array[1].length/2); a++) {
-            for (int i = a; i < array.length - a; i++) {
-
-                result.add(array[a][i]);
-
-                for (int c = a; c < ; c++) {
-
-                }
-                result.add(array[a][array.length-1-i]);
-                result.add(array[a][i]);
-                result.add(array[a][i]);
-            }
-
-        }
-        return result.toArray();
-
-
-
-    }
-}
+//import java.util.ArrayList;
+//import java.util.List;
+//
+//public class Snail {
+//
+//    public static int[] snail(int[][] array) {
+//        int n = array.length;
+//
+//        List<Integer>  result = new ArrayList<Integer> ();
+//
+//        for (int a = 0; a < Math.ceil(array[1].length/2); a++) {
+//            for (int i = a; i < array.length - a; i++) {
+//
+//                result.add(array[a][i]);
+//
+//                for (int c = a; c < ; c++) {
+//
+//                }
+//                result.add(array[a][array.length-1-i]);
+//                result.add(array[a][i]);
+//                result.add(array[a][i]);
+//            }
+//
+//        }
+//        return result.toArray();
+//
+//
+//
+//    }
+//}
 
 /* test data:
 int[][] zupa = new int[5][5];
