@@ -2,8 +2,8 @@ package pl._7kyu;
 
 class Main {
     public static void main(String[] args) {
-        JumpingNumber jumpingNumber = new JumpingNumber();
-        System.out.println(jumpingNumber.jumpingNumber(2123));
+        String dupa = "1 3 12 4 5";
+        System.out.println(HighestAndLowest.HighAndLow(dupa));
 
     }
 }
