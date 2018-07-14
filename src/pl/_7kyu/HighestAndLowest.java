@@ -14,7 +14,6 @@ public class HighestAndLowest {
                     }
                 })
                 .orElse(Integer.valueOf(numberList.get(0)));
-
         Integer max = numberList.stream()
                 .map(s -> Integer.parseInt(s))
                 .max(new Comparator<Integer>() {
@@ -25,5 +24,5 @@ public class HighestAndLowest {
                 })
                 .orElse(Integer.valueOf(numberList.get(0)));
         return (max + " " + min);
-        };
+    };
 }
